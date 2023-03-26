@@ -40,6 +40,6 @@ jobs:
       with:
        image: zeemlinux/java-gradle-app
        tags: v1, latest
-       registry: docker.io
+       registry: docker.com
        username: ${{ secrets.DOCKER_USERNAME }}
        password: ${{ secrets.DOCKER_PASSWORD }}
